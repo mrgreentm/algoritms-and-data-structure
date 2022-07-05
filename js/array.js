@@ -7,11 +7,11 @@ function createUl(array) {
     element.innerHTML = `
         <div style="
                 width: 300px;
-                heigth: 300px; 
-                background-color:red; 
-                color: white; p
-                adding: 1rem; 
-                border-radius: 20px; 
+                heigth: 300px;
+                background-color:red;
+                color: white;
+                padding: 1rem;
+                border-radius: 20px;
                 margin:10px">
             <p>A temperatura foi: ${temp}</p>
         </div>
