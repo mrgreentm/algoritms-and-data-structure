@@ -32,3 +32,15 @@ function Stack() {
     console.log(items.toString());
   };
 }
+
+var pilha = new Stack();
+pilha.push(10);
+pilha.push(11);
+pilha.push(12);
+pilha.push(13);
+pilha.pop(); //remove o último elemento da pilha (LIFO)
+
+console.log(pilha.peek()); //retorna o elemento no topo da pilha
+console.log(pilha.size()); //retorna o elemento o tamanho da pilha
+pilha.print();
+console.log(pilha.isEmpty()); //booleano para retornar a condição da pilha estar vazia
