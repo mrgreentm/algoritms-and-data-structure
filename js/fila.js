@@ -31,7 +31,7 @@ function Queue() {
 const queue = new Queue()
 queue.enqueue('João')
 queue.enqueue('Maria')
-queue.enqueue('Pietra')
+queue.enqueue('Josefa')
 queue.enqueue('Eduarda')
 console.log(queue.dequeue())
 console.log(queue.front())
